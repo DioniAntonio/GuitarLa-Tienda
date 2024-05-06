@@ -18,6 +18,7 @@ function App() {
             setCart(updatedCart)
         }else {
             item.quantity = 1
+            
             setCart([...cart, item])
         }
 
