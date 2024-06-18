@@ -507,6 +507,7 @@ button:not(:disabled),
   --bs-btn-disabled-color: #FFF;
   --bs-btn-disabled-bg: #262626;
   --bs-btn-disabled-border-color: #262626;
+    border-radius: 0.8rem;
 }
 
 .nav {
@@ -754,7 +755,7 @@ button:not(:disabled),
   }
 }
 .header {
-  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../img/header.jpg");
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("/img/header.jpg");
   /** TODO: Eliminar la sig linea **/
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url("../public/img/header.jpg");
   background-position: 50%;
